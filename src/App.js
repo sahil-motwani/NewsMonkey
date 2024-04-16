@@ -7,7 +7,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import LoadingBar from 'react-top-loading-bar'
+import LoadingBar from 'react-top-loading-bar';
+
 
 
 const App = ()=>{
@@ -24,6 +25,7 @@ const App = ()=>{
         color='#f11946'
         progress={progress}
       />
+      
         <Switch>
           <Route exact path="/"><News setProgress={setProgress} key="general" pageSize={pageSize} apiKey={apiKey} country="in" category="general"/></Route> 
           <Route exact path="/business"><News setProgress={setProgress} key="business" pageSize={pageSize} apiKey={apiKey} country="in" category="business"/></Route> 
