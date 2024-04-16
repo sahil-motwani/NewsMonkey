@@ -3,7 +3,6 @@ import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
 import InfiniteScroll from "react-infinite-scroll-component";
-import Button from '@mui/material/Button';
 
 const News = (props) => {
     //document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
